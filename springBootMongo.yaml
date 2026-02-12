@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: kkeducation12345/spring-app:1.0.0
+        image: vali12/mongospring2
         ports:
         - containerPort: 8080
         env:
