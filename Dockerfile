@@ -1,4 +1,4 @@
-FROM eclipse-temurin:8-jdk-alpine
+FROM openjdk:8-alpine
 
 
 # Required for starting application up.
