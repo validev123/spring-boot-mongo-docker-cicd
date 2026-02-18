@@ -2,7 +2,7 @@ FROM eclipse-temurin:8-jdk-alpine
 
 
 # Required for starting application up.
-RUN apt update && apt add /bin/sh
+RUN apk update && apk add /bin/sh
 
 RUN mkdir -p /opt/app
 ENV PROJECT_HOME /opt/app
